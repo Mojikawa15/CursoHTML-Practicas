@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 6.6 - Selectores</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th colspan="3"><img src="img/mp3.png"></th>
+                <th colspan="2"><img src="img/mp4.png" width="100px"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="Fila">
+                <th class="uno">Capacidad</th>
+                <td class="gigab">
+                    <p>2GB</p>
+                </td>
+                <td class="gigab">
+                    <p>4GB</p>
+                </td>
+                <td class="gigab">
+                    <p>8GB</p>
+                </td>
+                <td class="gigab">
+                    <p>32GB</p>
+                </td>
+                <td class="gigab">
+                    <p>2GB</p>
+                </td>
+            </tr>
+            <tr id="Listas">
+                <th class="uno">Colores</th>
+                <th>Blanco</th>
+                <td>
+                    <ul>
+                        <li>Negro</li>
+                        <li>Rosa</li>
+                        <li>Dorado</li>
+                    </ul>
+                </td>
+                <th>Negro</th>
+                <td colspan="2">
+                    <ul>
+                        <li>Negro</li>
+                        <li>Blanco</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th class="uno">Pantalla</th>
+                <th colspan="3">3 Pulgadas</th>
+                <th colspan="2">7 Pulgadas</th>
+            </tr>
+            <tr>
+                <th rowspan="2" class="uno">Tiempo de Carga</th>
+                <th colspan="3" rowspan="2">1 Hora</th>
+                <th colspan="2" id="Cinco">5 Horas</th>
+            </tr>
+            <tr>
+                <th colspan="2">30 minutos para 75%</th>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
